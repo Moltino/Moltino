@@ -1,3 +1,4 @@
 <h1 align="center"> Moltino </h1>
-!docs/hardware/images/icon.png<br>
-< align="center"> Documents and firmware for Moltino </align>
+![icon](https://github.com/user-attachments/assets/3c5c1b08-94ed-49ef-b31a-0a6e287a36a8)
+
+Documents and firmware for Moltino
