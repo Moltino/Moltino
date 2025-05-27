@@ -5,7 +5,7 @@
 <p align="center"> by TMSLAB </p><br>
 <p><B> MOLTINO </B> is a versatile input/output (I/O) module designed for measurement, control, and monitoring in industrial, academic, or development environments.</p>
 <p><lh><U>Main features:</U></lh>
-<ul>4 0-10V analog inputs (16bit resolution)</ul>
-<ul>4 multifunction digital inputs</ul>
-<ul>4 0-10V/300mA analog outputs</ul>
-<ul>4 relay outputs</ul></p>
+<ul><li>4 0-10V analog inputs (16bit resolution)
+<li>4 multifunction digital inputs
+<li>4 0-10V/300mA analog outputs
+<li>4 relay outputs</ul></p>
