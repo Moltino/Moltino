@@ -2,4 +2,4 @@
 
 <br><p align="center"> Arduino controlled I/O shield </p><br>
 <p align="center"> Documents and firmware </p><br>
-<img src="https://github.com/athomas1967/Moltino/blob/main/images/IMG_.png">
+<img src="https://github.com/athomas1967/Moltino/blob/main/images/IMG_.png" alt="Moltino 4x4 renaissance" width="300"/>
