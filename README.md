@@ -4,7 +4,7 @@
 <p align="center"> Open hardware project</p>
 <p align="center"> by TMSLAB </p><br>
 <p><B> MOLTINO </B> is a versatile input/output (I/O) module designed for measurement, control, and monitoring in industrial, academic, or development environments.</p>
-<p><lh>Main features</lh>
+<p><lh><U>Main features:</U></lh>
 <ul>4 0-10V analog inputs (16bit resolution)</ul>
 <ul>4 multifunction digital inputs</ul>
 <ul>4 0-10V/300mA analog outputs</ul>
