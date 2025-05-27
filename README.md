@@ -1,4 +1,4 @@
-<title align="center">Moltino <img src="https://github.com/athomas1967/Moltino/blob/main/images/icon.png" alt="icon" width="60"/></title>
+<h2 align="center">Moltino <img src="https://github.com/athomas1967/Moltino/blob/main/images/icon.png" alt="icon" width="60"/></h2>
 
 <div align="center"> Arduino controlled compact I/O shield </div><br>
 <p align="center"><img src="https://github.com/athomas1967/Moltino/blob/main/images/IMG_.png" alt="Moltino 4x4 renaissance" width="150"/></p>
