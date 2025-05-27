@@ -2,4 +2,6 @@
 
 <br><p align="center"> Arduino controlled I/O shield </p>
 <p align="center"><img src="https://github.com/athomas1967/Moltino/blob/main/images/IMG_.png" alt="Moltino 4x4 renaissance" width="300"/></p>
-<p align="center"> Project open hardware </p><p documents and firmware </p> <p by TMSLAB </p><br>
+<p align="center"> Project open hardware </p>
+<p align="center"> documents and firmware </p> 
+<p align="center"> by TMSLAB </p><br>
