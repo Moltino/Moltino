@@ -16,4 +16,5 @@ The firmware is distributed in precompiled format to ensure ease of use and to e
 <li>Integrated power supply</li>
 <li>Integrated RS485 communication</li>
 <li>LCD screen</li>
-<li>Modular design</li></ul></p>
+<li>Modular design</li>
+<li>Maximum protection</li></ul></p>
