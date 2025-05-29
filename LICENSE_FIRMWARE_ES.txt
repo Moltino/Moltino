@@ -1,0 +1,88 @@
+Licencia de Uso del Firmware Precompilado de MOLTINO
+
+Versión 1.1 — Mayo 2025
+© 2025 tmslab. Todos los derechos reservados.
+
+Esta licencia regula el uso del firmware precompilado ("el Firmware") proporcionado por tmslab para ser utilizado exclusivamente con la familia de dispositivos MOLTINO. Al usar, copiar o instalar el Firmware, usted acepta los términos de esta licencia.
+
+1. CONCESIÓN DE LICENCIA
+
+Se le concede una licencia no exclusiva, intransferible, revocable y libre de regalías para:
+
+   - Utilizar el Firmware únicamente en su forma binaria original.
+
+   - Cargar y ejecutar el Firmware en placas compatibles con Arduino (Uno R3, Uno R4) solo cuando se utilice en conjunto con hardware MOLTINO original fabricado por tmslab.
+
+   - Incluir el Firmware en flujos de trabajo de desarrollo, exclusivamente con el propósito de crear aplicaciones de usuario compatibles con hardware MOLTINO.
+
+   - Utilizar el Firmware con fines educativos, personales, académicos o experimentales.
+
+   - Redistribuir el Firmware en su formato binario original, únicamente como parte del hardware original MOLTINO, e incluyendo esta licencia íntegra y sin modificaciones.
+
+Cualquier uso del Firmware fuera de estas condiciones constituye una violación de esta licencia.
+
+2. USO NO COMERCIAL
+
+El uso del Firmware está permitido sin costo para fines no comerciales, incluyendo:
+
+   - Proyectos personales, académicos, de investigación, educativos o de aficionados.
+
+   - Desarrollo de firmware de código abierto que no implique reventa ni monetización del hardware MOLTINO ni de derivados.
+
+   - Presentaciones, demostraciones o documentación técnica, siempre que el Firmware no sea ejecutado en hardware no autorizado.
+
+Se considera uso comercial cualquier actividad que:
+
+   - Genere ingresos directos o indirectos,
+
+   - Forme parte de un producto o servicio ofrecido comercialmente,
+
+   - Impulse beneficios financieros, monetización o explotación industrial.
+
+3. USO COMERCIAL
+
+El uso del Firmware en productos, servicios, fabricación o sistemas comerciales requiere un acuerdo por escrito con tmslab. Esto incluye, pero no se limita a:
+
+   - Venta de productos que incluyan o dependan del Firmware.
+
+   - Prestación de servicios pagos que utilicen o incorporen el Firmware.
+
+   - Inclusión del Firmware en sistemas de terceros, productos OEM, soluciones SaaS o plataformas integradas.
+
+Sin embargo, se permite expresamente la reventa de dispositivos MOLTINO originales fabricados por tmslab que incluyan el Firmware preinstalado, siempre que:
+
+   - El Firmware permanezca sin modificar,
+
+   - No sea extraído ni redistribuido de forma independiente,
+
+   - Se mantengan intactos los avisos de derechos de autor, marca y licencia.
+
+4. RESTRICCIONES
+
+Bajo ninguna circunstancia está permitido:
+
+   - Modificar, descompilar, realizar ingeniería inversa, desensamblar o intentar obtener el código fuente del Firmware.
+
+   - Redistribuir el Firmware por separado o junto con hardware que no sea MOLTINO.
+
+   - Ejecutar el Firmware en hardware clonado, modificado o fabricado por terceros.
+
+   - Usar el Firmware como base para desarrollar versiones derivadas, réplicas funcionales o productos competidores.
+
+   - Eliminar o alterar avisos de copyright, marcas comerciales, condiciones de licencia o cualquier identificación de tmslab.
+
+5. PROPIEDAD
+
+El Firmware es una obra protegida por derechos de autor y propiedad intelectual. Todos los derechos no concedidos expresamente en este documento están reservados por tmslab. Esta licencia no transfiere ningún derecho sobre el código fuente, ni otorga titularidad sobre el Firmware o cualquier parte de él.
+
+6. SIN GARANTÍA
+
+El Firmware se proporciona "tal cual", sin garantía expresa o implícita. tmslab no garantiza que el Firmware sea adecuado para un propósito particular, ni asegura su correcto funcionamiento, estabilidad o compatibilidad con otros sistemas. Usted asume todo el riesgo derivado del uso del Firmware.
+
+7. TERMINACIÓN
+
+Esta licencia se rescindirá automáticamente si usted incumple cualquiera de sus disposiciones. Tras la terminación, usted debe cesar toda utilización y eliminar todas las copias del Firmware en su posesión. La terminación no limita los derechos legales de tmslab a perseguir daños u otras compensaciones.
+
+8. LEY APLICABLE
+
+Esta licencia se rige por las leyes del país donde tmslab esté legalmente registrado, salvo disposición expresa en contrario mediante acuerdo escrito entre las partes.

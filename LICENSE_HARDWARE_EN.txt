@@ -1,0 +1,58 @@
+MOLTINO Hardware Use License
+
+Version 1.0 — May 2025
+© 2025 tmslab. All rights reserved.
+
+This license sets forth the terms under which the MOLTINO hardware design may be used. By accessing or using any technical material provided by tmslab (including schematics), you agree to the terms of this license.
+
+1. GRANT OF LICENSE
+
+You are granted a non-exclusive, non-transferable, revocable, royalty-free license to:
+
+    View and study the provided electrical schematics solely for purposes of development, documentation, integration, or education.
+
+    Develop firmware, libraries, or documentation compatible with original MOLTINO hardware.
+
+    Use the design as a reference to understand interfaces, protocols, and system functions.
+
+This license does not include the right to manufacture, modify, replicate, or distribute copies of the MOLTINO hardware or any derivative thereof.
+
+2. PERMITTED USE
+
+You may, at no cost:
+
+    Share the schematic only in its original form, accompanied by this license.
+
+    Develop and distribute software or firmware that interacts with original MOLTINO hardware.
+
+    Resell original MOLTINO devices lawfully obtained, provided they are not modified and retain all branding and license notices.
+
+3. RESTRICTIONS
+
+The following actions are strictly prohibited:
+
+    Manufacturing, cloning, replicating, or producing hardware based wholly or partially on MOLTINO.
+
+    Sharing, distributing, or using schematics for the purpose of producing functional or derivative copies.
+
+    Modifying or reusing the design to create new versions or similar products.
+
+    Using the design in commercial contexts without prior written permission from tmslab.
+
+    Removing copyright, trademark, or license notices from any technical documents.
+
+4. INTELLECTUAL PROPERTY
+
+All rights to the design, brand, name, logo, technical documentation, and any material related to the MOLTINO hardware are the exclusive property of tmslab. This license does not transfer intellectual property rights.
+
+5. WARRANTY AND LIABILITY
+
+The technical material is provided “as is,” with no express or implied warranty. tmslab makes no guarantee that the design is fit for a particular purpose and assumes no liability for misuse of the material.
+
+6. TERMINATION
+
+This license will terminate automatically if any of its terms are violated. Upon termination, you must cease using all technical materials and destroy all copies in your possession.
+
+7. GOVERNING LAW
+
+This agreement is governed by the laws of the country in which tmslab is legally registered, unless otherwise agreed in writing.
