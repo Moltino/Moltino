@@ -18,3 +18,6 @@ The firmware is distributed in precompiled format to ensure ease of use and to e
 <li>LCD screen</li>
 <li>Modular design</li>
 <li>Maximum protection</li></ul></p>
+<p><b>Flexible firmware development:</b><br>
+<b> MOLTINO </b> allows anyone to develop their own firmware tailored to specific needs.
+Thanks to its compatibility with standard Arduino Uno form factor boards, developers can easily use a wide range of controllers available on the market — including AVR, STM32, ESP32, and RP2040 — to create powerful and customized solutions.</p>
