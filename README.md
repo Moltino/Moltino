@@ -12,4 +12,8 @@ The firmware is distributed in precompiled format to ensure ease of use and to e
 <ul><li>4 0-10V analog inputs (16bit resolution)
 <li>4 multifunction digital inputs
 <li>4 0-10V/300mA analog outputs
-<li>4 relay outputs</ul></p>
+<li>4 relay outputs
+<li>Integrated power supply</li>
+<li>Integrated RS485 communication</li>
+<li>LCD screen</li>
+<li>Modular design</li></ul></p>
