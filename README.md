@@ -8,7 +8,7 @@ The PCB design remains proprietary to protect the integrity of original manufact
 The firmware is distributed in precompiled format to ensure ease of use and to encourage the development of compatible applications across multiple platforms.</p>
 
 <b> MOLTINO </b> aims to strike a balance between openness, collaboration, and commercial sustainability.</p>
-<p><lh><U>Main features:</U></lh>
+<p><lh><u><b>Main features:</b></u></lh>
 <ul><li>4 0-10V analog inputs (16bit resolution)
 <li>4 multifunction digital inputs
 <li>4 0-10V/300mA analog outputs
