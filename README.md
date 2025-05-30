@@ -7,7 +7,7 @@ It is a documented hardware platform with publicly available schematics to suppo
 Users are encouraged to develop their own firmware and applications tailored to specific use cases.
 The system is compatible with a wide range of Arduino Uno form factor controllers, including AVR, STM32, ESP32, and RP2040 boards, offering flexibility and scalability across different performance needs.<br>
 <b> MOLTINO </b> is committed to fostering openness and collaboration while ensuring commercial viability and product reliability.</p>
-<p><lh><u><b>Main features:</b></u></lh>
+<p><lh><u><b>Main features <b>MOLTINO</b> 4x4 renaissance:</b></u></lh>
 <ul><li>4 0-10V analog inputs (16bit resolution)</li>
 <li>4 multifunction digital inputs</li>
 <li>4 0-10V/300mA analog outputs</li>
