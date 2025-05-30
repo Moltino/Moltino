@@ -3,10 +3,9 @@
 <p align="center"><img src="https://github.com/athomas1967/Moltino/blob/main/images/IMG_.png" alt="Moltino 4x4 renaissance" width="150"/></p>
   
 <p><b> MOLTINO </b> is a versatile input/output (I/O) module designed for measurement, control, and monitoring in industrial, academic, or development environments.<br>
-Is a modular system with documented hardware and publicly available schematics under the CERN-OHL-S open hardware license.
-The PCB design remains proprietary to protect the integrity of original manufacturing.
-The firmware is distributed in precompiled format to ensure ease of use and to encourage the development of compatible applications across multiple platforms.</p>
-
+Is a modular system with documented hardware, including publicly available schematics for reference and firmware development.
+While the PCB design remains proprietary to protect original production, users are encouraged to build their own firmware and applications.
+The system supports a variety of Arduino Uno form factor controllers, enabling compatibility with widely available microcontroller platforms such as AVR, STM32, ESP32, and RP2040.
 <b> MOLTINO </b> aims to strike a balance between openness, collaboration, and commercial sustainability.</p>
 <p><lh><u><b>Main features:</b></u></lh>
 <ul><li>4 0-10V analog inputs (16bit resolution)
