@@ -15,7 +15,7 @@ The system supports a variety of Arduino Uno form factor controllers, enabling c
 <li>Logic compatible with 5V and 3.3V</li>
 <li>Integrated power supply</li>
 <li>Integrated RS485 communication</li>
-<li>LCD screen</li>
+<li>Optional LCD screen</li>
 <li>Modular design</li>
 <li>Maximum protection</li></ul></p>
 <p><b>Flexible firmware development:</b></p>
