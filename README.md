@@ -8,10 +8,11 @@ While the PCB design remains proprietary to protect original production, users a
 The system supports a variety of Arduino Uno form factor controllers, enabling compatibility with widely available microcontroller platforms such as AVR, STM32, ESP32, and RP2040.<br>
 <b> MOLTINO </b> aims to strike a balance between openness, collaboration, and commercial sustainability.</p>
 <p><lh><u><b>Main features:</b></u></lh>
-<ul><li>4 0-10V analog inputs (16bit resolution)
-<li>4 multifunction digital inputs
-<li>4 0-10V/300mA analog outputs
-<li>4 relay outputs
+<ul><li>4 0-10V analog inputs (16bit resolution)</li>
+<li>4 multifunction digital inputs</li>
+<li>4 0-10V/300mA analog outputs</li>
+<li>4 relay outputs</li>
+<li>Logic compatible with 5V and 3.3V</li>
 <li>Integrated power supply</li>
 <li>Integrated RS485 communication</li>
 <li>LCD screen</li>
