@@ -2,11 +2,11 @@
 <div align="center"><I> Arduino controlled compact modular I/O shield </div></I><br>
 <p align="center"><img src="https://github.com/athomas1967/Moltino/blob/main/images/IMG_.png" alt="Moltino 4x4 renaissance" width="150"/></p>
   
-<p><b> MOLTINO </b> is a versatile input/output (I/O) module designed for measurement, control, and monitoring in industrial, academic, or development environments.<br>
-Is a modular system with documented hardware, including publicly available schematics for reference and firmware development.
-While the PCB design remains proprietary to protect original production, users are encouraged to build their own firmware and applications.
-The system supports a variety of Arduino Uno form factor controllers, enabling compatibility with widely available microcontroller platforms such as AVR, STM32, ESP32, and RP2040.<br>
-<b> MOLTINO </b> aims to strike a balance between openness, collaboration, and commercial sustainability.</p>
+<p><b> MOLTINO </b> is a versatile family of modular input/output (I/O) devices designed for measurement, control, and monitoring in industrial, academic, and development environments.
+It is a documented hardware platform with publicly available schematics to support firmware creation and system integration.
+Users are encouraged to develop their own firmware and applications tailored to specific use cases.
+The system is compatible with a wide range of Arduino Uno form factor controllers, including AVR, STM32, ESP32, and RP2040 boards, offering flexibility and scalability across different performance needs.<br>
+<b> MOLTINO </b> is committed to fostering openness and collaboration while ensuring commercial viability and product reliability.</p>
 <p><lh><u><b>Main features:</b></u></lh>
 <ul><li>4 0-10V analog inputs (16bit resolution)</li>
 <li>4 multifunction digital inputs</li>
