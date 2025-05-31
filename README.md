@@ -17,7 +17,7 @@ The system is compatible with a wide range of Arduino Uno form factor controller
 <li>Integrated RS485 communication</li>
 <li>Optional LCD screen</li>
 <li>Modular design</li>
-<li>Maximum protection</li></ul></p>
+<li>Maximum protection</li></ul></p><hr>
 <p><b>Flexible firmware development:</b></p>
 <p><b> MOLTINO </b> allows anyone to develop their own firmware tailored to specific needs.
 Thanks to its compatibility with standard Arduino Uno form factor boards, developers can easily use a wide range of controllers available on the market — including AVR, STM32, ESP32, and RP2040 — to create powerful and customized solutions.</p>
