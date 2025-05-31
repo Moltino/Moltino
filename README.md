@@ -22,4 +22,5 @@ The system is compatible with a wide range of Arduino Uno form factor controller
 <p><b> MOLTINO </b> allows anyone to develop their own firmware tailored to specific needs.
 Thanks to its compatibility with standard Arduino Uno form factor boards, developers can easily use a wide range of controllers available on the market — including AVR, STM32, ESP32, and RP2040 — to create powerful and customized solutions.</p>
 <p><b> Ready-to-Use Firmware:</b></p>
-<p>Precompiled firmware versions are also available for download, eliminating the need for firmware development in many cases. These firmwares are configurable and can be adapted to various use cases with minimal effort.</p>
+<p>Precompiled firmware versions are also available for download, eliminating the need for firmware development in many cases. These firmwares are configurable and can be adapted to various use cases with minimal effort.</p><hr>
+<b>LICENSES:</b>
