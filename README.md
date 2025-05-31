@@ -23,4 +23,4 @@ The system is compatible with a wide range of Arduino Uno form factor controller
 Thanks to its compatibility with standard Arduino Uno form factor boards, developers can easily use a wide range of controllers available on the market — including AVR, STM32, ESP32, and RP2040 — to create powerful and customized solutions.</p>
 <p><b> Ready-to-Use Firmware:</b></p>
 <p>Precompiled firmware versions are also available for download, eliminating the need for firmware development in many cases. These firmwares are personalizable and configurable, can be adapted to various use cases with minimal effort.</p><hr>
-<b>LICENSES:</b>
+<b>Licenses:</b>
