@@ -9,7 +9,7 @@ The system is compatible with a wide range of Arduino Uno form factor controller
 <b> MOLTINO </b> is committed to fostering openness and collaboration while ensuring commercial viability and product reliability.</p><hr>
 <p><lh><u><b>Main features <b>MOLTINO</b> 4x4 renaissance:</b></u></lh>
 <ul><li>4 0-10V analog inputs (16bit resolution)</li>
-<li>4 multifunction digital inputs</li>
+<li>4 multifunction smart digital inputs</li>
 <li>4 0-10V/300mA analog outputs</li>
 <li>4 relay outputs</li>
 <li>Logic compatible with 5V and 3.3V</li>
