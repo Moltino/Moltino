@@ -8,7 +8,7 @@ Users are encouraged to develop their own firmware and applications tailored to 
 The system is compatible with a wide range of Arduino Uno form factor controllers, including AVR, STM32, ESP32, RP2040, among others, offering flexibility and scalability for different performance needs. These platforms also enable the integration of additional features such as wireless communication (Wi-Fi, Bluetooth), real-time clock (RTC), external storage, or advanced processing capabilities, significantly expanding the development possibilities depending on the project.<br>
 <b> MOLTINO </b> is committed to fostering openness and collaboration while ensuring commercial viability and product reliability.</p><hr>
 <p><lh><u><b>Main features <b>MOLTINO</b> 4x4 renaissance:</b></u></lh>
-<ul><li>4 0-10V analog inputs (16bit resolution)</li>
+<ul><li>4 0-10V/0-20mA analog inputs (16bit resolution)</li>
 <li>4 multifunction smart digital inputs</li>
 <li>4 0-10V/300mA analog outputs</li>
 <li>4 relay outputs</li>
