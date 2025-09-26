@@ -9,6 +9,8 @@ private:
     uint8_t _pin[23];
     uint8_t _pinsInputDigital;
     uint8_t _pinsOutputDigital;
+    uint16_t INPUT_REG[4];
+    uint16_t HOLDING_REG[17];
     uint8_t INPUTS;
     uint8_t lastStateInputs = 0;
     unsigned long timeIni=0;
@@ -25,8 +27,8 @@ private:
     static M4x4_R3* theM4x4_R3;
     float x = 1.2345;
     float y = 6.789;
-    const uint8_t PWMmax = PWMmax8bits;
-    const uint16_t ADmax = ADmax15bits;
+    const uint8_t PWMmax = 255;
+    const uint16_t ADmax = 32767;
     bool saveCounters = false;
     uint8_t modeAnaInp = 0;
     uint16_t corrAnaInpToMax;
@@ -53,7 +55,7 @@ private:
     bool rele3on = false;
     bool rele4on = false;
     uint8_t countLcd = 0;
-    uint8_t countDwnLcd = LCD_TIME;
+    uint8_t countDwnLcd = 10;
     bool stateLcd = true;
     bool refreshLcd = false;
     bool firstpress = false;

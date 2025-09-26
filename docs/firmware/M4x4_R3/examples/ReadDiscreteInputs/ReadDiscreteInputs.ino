@@ -11,10 +11,9 @@ void setup()
 }
 
 void loop() 
-{ 
+{
   myMoltino4x4.readCounters();
- if( myMoltino4x4.readInputReg( analogInput1 ) > 5000 ) myMoltino4x4.writeSingleCoil( coil1, coilOn );
- else myMoltino4x4.writeSingleCoil( coil1, coilOff );
   myMoltino4x4.sendTextLcd();
+  myMoltino4x4.writeMultipleCoils( myMoltino4x4.readDiscreteInputs(digitalInput1, 4 ));
   wdt_reset();
 }

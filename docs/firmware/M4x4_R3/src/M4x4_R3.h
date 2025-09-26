@@ -24,63 +24,68 @@ typedef const char* const MenuItem_t;
 
 extern const MenuItem_t menuStrings[] PROGMEM;
 
-#define bit0                      1
-#define bit1                      2
-#define bit2                      4
-#define bit3                      8
-#define bit4                     16
-#define bit5                     32
-#define bit6                     64
-#define bit7                    128
+// max.: 16 char/var.                                 ADDRESS  MODBUS FUNC.
+const char str0[]  PROGMEM = "COIL 1 STATE";       //  00000         01
+const char str1[]  PROGMEM = "COIL 2 STATE";       //  00001         01
+const char str2[]  PROGMEM = "COIL 3 STATE";       //  00002         01
+const char str3[]  PROGMEM = "COIL 4 STATE";       //  00003         01
+const char str4[]  PROGMEM = "DISCRET INPUT 1";    //  10000         02
+const char str5[]  PROGMEM = "DISCRET INPUT 2";    //  10001         02
+const char str6[]  PROGMEM = "DISCRET INPUT 3";    //  10002         02
+const char str7[]  PROGMEM = "DISCRET INPUT 4";    //  10003         02
+const char str8[]  PROGMEM = "LATCH INPUT 1";      //  10008         02
+const char str9[]  PROGMEM = "LATCH INPUT 2";      //  10009         02
+const char str10[] PROGMEM = "LATCH INPUT 3";      //  10010         02
+const char str11[] PROGMEM = "LATCH INPUT 4";      //  10011         02
+const char str12[] PROGMEM = "ANALOG INPUT 1";     //  30000         04
+const char str13[] PROGMEM = "ANALOG INPUT 2";     //  30001         04
+const char str14[] PROGMEM = "ANALOG INPUT 3";     //  30002         04
+const char str15[] PROGMEM = "ANALOG INPUT 4";     //  30003         04
+const char str16[] PROGMEM = "ANALOG OUTPUT 1";    //  40000         03
+const char str17[] PROGMEM = "ANALOG OUTPUT 2";    //  40001         03
+const char str18[] PROGMEM = "ANALOG OUTPUT 3";    //  40002         03
+const char str19[] PROGMEM = "ANALOG OUTPUT 4";    //  40003         03
+const char str20[] PROGMEM = "COUNTER 1";          //  40008         03
+const char str21[] PROGMEM = "COUNTER 2";          //  40010         03
+const char str22[] PROGMEM = "COUNTER 3";          //  40012         03
+const char str23[] PROGMEM = "COUNTER 4";          //  40014         03
+const char str24[] PROGMEM = "FREQ.DIG.INPUT 1";   //  40024         03
+const char str25[] PROGMEM = "FREQ.DIG.INPUT 2";   //  40025         03
+const char str26[] PROGMEM = "FREQ.DIG.INPUT 3";   //  40026         03
+const char str27[] PROGMEM = "FREQ.DIG.INPUT 4";   //  40027         03
+const char str28[] PROGMEM = "ERROR 4-20mA";       //  40032         03
 
-// ADDRESS BORDERS:
-//--------------------[ COILS ]-------------------------------------------
-#define CoilsIni1                   0
-#define CoilsFin1                   3
-#define CoilsIni2                   4
-#define CoilsFin2                   7
-//-------------------[ DISCRET INPUTS ]-----------------------------------
-#define InpDiscIni1             10000
-#define InpDiscFin1             10003
-#define InpDiscIni2             10004
-#define InpDiscFin2             10007
-#define InpDiscIni3             10008
-#define InpDiscFin3             10011
-#define InpDiscIni4             10012
-#define InpDiscFin4             10015
-//------------------[ INPUT REGISTER ]-----------------------------------
-#define InpRegIni1              30000
-#define InpRegFin1              30003
-#define InpRegIni2              30004
-#define InpRegFin2              30007
-//-----------------[ HOLDING REGISTER ]----------------------------------
-#define HoldRegIni1             40000
-#define HoldRegFin1             40003
-#define HoldRegIni2             40004
-#define HoldRegFin2             40007
-#define HoldRegIni3             40008
-#define HoldRegFin3             40015
-#define HoldRegIni4             40016
-#define HoldRegFin4             40023
-#define HoldRegIni5             40024
-#define HoldRegFin5             40027
-#define HoldRegIni6             40028
-#define HoldRegFin6             40031
-#define HoldRegIni7             40032
-#define HoldRegFin7             40032
-#define HoldRegIni8             40033
-#define HoldRegFin8             40043
-#define HoldRegIni9             40044
-#define HoldRegFin9             40047
-#define HoldRegIni10            40052
-#define HoldRegFin10            40055
+//--------------------------------[ CONFIGURATION AREA ]------------------------------------
+//--------------------------------/  DON'T CHANGE IT!  /------------------------------------
+
+const char str29[] PROGMEM = "MODBUS ID:";         //  40033         03
+const char str30[] PROGMEM = "SERIAL SPEED:";      //  40034         03
+const char str31[] PROGMEM = "D.INPUTS MASK:";     //  40035         03
+const char str32[] PROGMEM = "COUNTERS MEMORY:";   //  40036         03
+const char str33[] PROGMEM = "COUNTERS CONFIG:";   //  40037         03
+const char str34[] PROGMEM = "AIN.RECALIB VAL:";   //  40038         03
+const char str35[] PROGMEM = "AOU.RECALIB VAL:";   //  40042         03
+const char str36[] PROGMEM = "ANALOG MEAS.CH:";    //  40043         03
+const char str37[] PROGMEM = "DELAY RELAY 1:";     //  40044         03
+const char str38[] PROGMEM = "DELAY RELAY 2:";     //  40045         03
+const char str39[] PROGMEM = "DELAY RELAY 3:";     //  40046         03
+const char str40[] PROGMEM = "DELAY RELAY 4:";     //  40047         03
+
+
+const MenuItem_t menuStrings[] PROGMEM = {
+  str0, str1, str2, str3, str4, str5, str6, str7, str8, str9,
+  str10, str11, str12, str13, str14, str15, str16, str17, str18,
+  str19, str20, str21, str22, str23, str24, str25, str26, str27,
+  str28, str29, str30, str31, str32, str33, str34, str35, str36,
+  str37, str38, str39, str40
+};
 
 // USER REGISTERS:
 
-#define coils1                  0
-#define coils2                  1
-#define coils3                  2
-#define coils4                  3
+#define coil1                   0
+#define coil2                   1
+#define coil3                   2
+#define coil4                   3
 #define digitalInput1           10000
 #define digitalInput2           10001
 #define digitalInput3           10002
@@ -105,6 +110,10 @@ extern const MenuItem_t menuStrings[] PROGMEM;
 #define counter3L               40013
 #define counter4H               40014
 #define counter4L               40015
+#define counter32_1             40008
+#define counter32_2             40010
+#define counter32_3             40012
+#define counter32_4             40014
 #define freqDI1                 40024
 #define freqDI2                 40025
 #define freqDI3                 40026
@@ -138,64 +147,8 @@ extern const MenuItem_t menuStrings[] PROGMEM;
 #define Softvare_version        40054
 #define Serial_number           40055
 
-// PINS:
-
-#define RS485TRX                2
-#define LEDC                   13
-#define button1                16
-#define button2                17
-
-// MACROS:
-
-#define RS485TX()               digitalWriteFast(RS485TRX,HIGH)
-#define RS485RX()               digitalWriteFast(RS485TRX,LOW)
-#define LEDC_ON()               digitalWriteFast(LEDC,HIGH)
-#define LEDC_OFF()              digitalWriteFast(LEDC,LOW)
-#define LEDC_TOGGLE()           digitalToggleFast(LEDC)
-
-#define coil0_ON()              digitalWriteFast(_pin[8],HIGH)
-#define coil0_OFF()             digitalWriteFast(_pin[8],LOW)
-#define coil1_ON()              digitalWriteFast(_pin[9],HIGH)
-#define coil1_OFF()             digitalWriteFast(_pin[9],LOW)
-#define coil2_ON()              digitalWriteFast(_pin[10],HIGH)
-#define coil2_OFF()             digitalWriteFast(_pin[10],LOW)
-#define coil3_ON()              digitalWriteFast(_pin[11],HIGH)
-#define coil3_OFF()             digitalWriteFast(_pin[11],LOW)
-#define coil4_ON()              digitalWriteFast(_pin[12],HIGH)
-#define coil4_OFF()             digitalWriteFast(_pin[12],LOW)
-#define coil5_ON()              digitalWriteFast(_pin[13],HIGH)
-#define coil5_OFF()             digitalWriteFast(_pin[13],LOW)
-#define coil6_ON()              digitalWriteFast(_pin[14],HIGH)
-#define coil6_OFF()             digitalWriteFast(_pin[14],LOW)
-#define coil7_ON()              digitalWriteFast(_pin[15],HIGH)
-#define coil7_OFF()             digitalWriteFast(_pin[15],LOW)
-
-#define MASKBIT(n)              (MASK >> n) & 1
-
-// CONSTANT VALUES:
-
-#define PWMmax8bits             255
-#define PWMmax10bits            1023
-#define PWMmax12bits            4095
-#define PWMmax14bits            16383
-
-#define ADmax10bits             1023
-#define ADmax12bits             4095
-#define ADmax14bits             16383
-#define ADmax15bits             32767
-#define ADmax16bits             65535
-
-// PARAMETERS
-
-#define ADNoiseMaxLevel         9
-
-#define tick                    1001702
-
-// #define debug
-// #define LCD_REFRESH
-#define LCD_TIME                10 // sec
-#define INTRO_LINE1             "MOLTINO 4x4"
-#define INTRO_LINE2             "renaissance"
+#define coilOn                  0xFF00
+#define coilOff                      0
 
 class M4x4_R3
 {
@@ -212,17 +165,14 @@ public:
     void dataMonitoring();
     void readCounters();
     void sendTextLcd();
-    uint8_t read_Coils(const uint8_t start, uint8_t quantity );
-    uint16_t read_Discrete_Inputs(const uint16_t start, uint8_t quantity );
-    uint16_t read_Holding_Reg(const uint16_t address );
-    void write_Single_Coil(const uint16_t address, uint16_t value );
-    void write_Single_Reg(const uint16_t address, uint16_t value );
-    void write_Multiple_Coils();
-    void write_Multiple_Registers(const uint16_t address, uint16_t value );
-    void resetCounters(const uint16_t _register, uint16_t Count );
-    uint16_t readInputAnalog( uint8_t channel );
-    uint16_t INPUT_REG[4];
-    uint16_t HOLDING_REG[17];
+    uint16_t readCoils( const uint16_t start, uint16_t quantity );
+    uint16_t readDiscreteInputs( const uint16_t start, uint16_t quantity );
+    uint16_t readInputReg( const uint16_t address );
+    uint16_t readHoldingReg( const uint16_t address );
+    void writeSingleCoil( const uint16_t address, uint16_t value );
+    void writeSingleReg( const uint16_t address, uint16_t value );
+    void writeMultipleCoils( uint16_t outputs_value );
+    void resetCounters( const uint16_t register32, uint16_t Count );
 
  #include "M4x4_R3_internal.h"
 
